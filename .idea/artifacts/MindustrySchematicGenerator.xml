@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MindustrySchematicGenerator">
+    <output-path>$PROJECT_DIR$/out/artifacts/MindustrySchematicGenerator</output-path>
+    <root id="archive" name="MindustrySchematicGenerator.jar">
+      <element id="module-output" name="MindustrySchematicGenerator" />
+    </root>
+  </artifact>
+</component>

@@ -42,7 +42,7 @@ public class Main {
 
             for (int y = 0; y < height; y++) {
                 for (int x = 0; x < width; x++) {
-                    tiles.add(new TTile(null, x, y, colorMapper.ColorMapper(new Color(buffer_post_image.getRGB(x, y))), (byte) 0));
+                    tiles.add(new TTile(null, x, y, colorMapper.ColorMapper(new Color(buffer_post_image.getRGB(x, height - y - 1))), (byte) 0));
                 }
             }
 

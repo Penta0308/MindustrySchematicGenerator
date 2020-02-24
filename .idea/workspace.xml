@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3559c3f-4b11-495d-a332-8a560452feed" name="Default Changelist" comment="" />
+    <list default="true" id="f3559c3f-4b11-495d-a332-8a560452feed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k48285p1n12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/k48285p1n12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k48285p1n12.jpg.msch" beforeDir="false" afterPath="$PROJECT_DIR$/k48285p1n12.jpg.msch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tk/skmserver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/skmserver/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,15 +20,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YDJmE7MrcDdNVHkTWQrXT4Swou" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.Main(Generate)">
@@ -78,6 +90,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="599" y="134" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.834@0.0.1536.834" timestamp="1582533639011" />
+    <state x="331" y="15" key="CommitChangelistDialog2" timestamp="1582541653970">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="331" y="15" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582541653970" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582540936543">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -94,5 +110,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582540936543" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1582541630896">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582541630896" />
   </component>
 </project>
