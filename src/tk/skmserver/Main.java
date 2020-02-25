@@ -2,6 +2,7 @@ package tk.skmserver;
 
 import arc.files.Fi;
 import arc.struct.*;
+import arc.util.ArcAnnotate;
 import arc.util.io.Streams;
 import arc.util.serialization.Base64Coder;
 import mindustry.world.Pos;
@@ -12,6 +13,8 @@ import java.awt.image.BufferedImage;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.zip.DeflaterOutputStream;
 import java.util.zip.InflaterInputStream;
 
@@ -42,13 +45,14 @@ public class Main {
 
             for (int y = 0; y < height; y++) {
                 for (int x = 0; x < width; x++) {
-                    tiles.add(new TTile(null, x, y, colorMapper.ColorMapper(new Color(buffer_post_image.getRGB(x, height - y - 1))), (byte) 0));
+                    Color c = new Color(buffer_post_image.getRGB(x, height - y - 1));
+                    if(!c.equals(Color.WHITE)) tiles.add(new TTile(new TBlock("sorter"), x, y, colorMapper.ColorMapper(c), (byte) 0));
                 }
             }
 
 
             StringMap tags = new StringMap();
-            //tags.put("name", args[4]);
+            tags.put("name", args[4]);
             Schematic sch = new Schematic(tiles, tags, (short) width, (short) height);
 
             if (args[5].equals("STDIO")) {
@@ -92,10 +96,31 @@ public class Main {
                 }
             }
 
+        } else if (args.length == 3 && args[0].equals("image")) {
+            Schematic s = read(Fi.get(args[1]));
+            BufferedImage buffer_pre_image = new BufferedImage(s.width, s.height, BufferedImage.TYPE_3BYTE_BGR);
+            FilterMapper filterMapper = new FilterMapper();
+
+            for (int y = 0; y < s.height; y++)
+                for (int x = 0; x < s.width; x++)
+                    buffer_pre_image.setRGB(x, y, Color.WHITE.getRGB());
+
+            s.tiles.forEach((t) -> {
+                if (t.block.name.equals("sorter"))
+                    buffer_pre_image.setRGB(t.x, s.height - t.y - 1, filterMapper.FilterMapper(t.config));
+                else buffer_pre_image.setRGB(t.x, s.height - t.y - 1, Color.WHITE.getRGB());
+            });
+            File out = new File(args[2]);
+            ImageIO.write(buffer_pre_image, "png", out);
+
         } else {
+
             System.out.println("Usage : generate <imagepath> <X-resolution> <Y-resolution> <name> <outputpath>");
             System.out.println("Usage : extract <schpath> <outputpath>");
-            System.out.println("set <outputpath> \"STDIO\" to get output by base64");
+            System.out.println("Set <outputpath> \"STDIO\" to get output by base64");
+            System.out.println("Usage : image <schpath> <outputpath>");
+            System.out.println("Generates PNG Image");
+            System.out.println("#FFFFFF means Air");
         }
     }
 
@@ -139,6 +164,75 @@ public class Main {
     private static final byte[] header = {'m', 's', 'c', 'h'};
     private static final byte version = 0;
 
+    public static Schematic read(Fi file) throws IOException {
+        return read(new DataInputStream(file.read(1024)));
+    }
+
+    private @ArcAnnotate.Nullable
+    Schematic loadFile(Fi file){
+        if(!file.extension().equals("msch")) return null;
+
+        try {
+            return read(file);
+        } catch(IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public static Schematic read(InputStream input) throws IOException {
+        for (byte b : header) {
+            if (input.read() != b) {
+                throw new IOException("Not a schematic file (missing header).");
+            }
+        }
+
+        int ver;
+        if ((ver = input.read()) != version) {
+            throw new IOException("Unknown version: " + ver);
+        }
+
+        try (DataInputStream stream = new DataInputStream(new InflaterInputStream(input))) {
+            short width = stream.readShort(), height = stream.readShort();
+
+            StringMap map = new StringMap();
+            byte tags = stream.readByte();
+            for (int i = 0; i < tags; i++) {
+                stream.readUTF(); stream.readUTF();
+            }
+
+            byte sortercode = 0;
+
+            switch(stream.readByte()) {
+                case 1:
+                    if(stream.readUTF().equals("sorter")) sortercode = 0;
+                    break;
+                case 2:
+                    if(stream.readUTF().equals("sorter")) {
+                        sortercode = 0;
+                    } else {
+                        sortercode = 1;
+                    }
+                    stream.readUTF();
+                    break;
+                default:
+            }
+
+            int total = stream.readInt();
+            Array<TTile> tiles = new Array<>(total);
+            for (int i = 0; i < total; i++) {
+                TBlock block;
+                if(stream.readByte() == sortercode) block = new TBlock("sorter"); else block = new TBlock("air");
+                int position = stream.readInt();
+                int config = stream.readInt();
+                byte rotation = stream.readByte();
+                tiles.add(new TTile(block, Pos.x(position), Pos.y(position), config, rotation));
+            }
+
+            return new Schematic(tiles, map, width, height);
+        }
+    }
+
     public static void write(Schematic schematic, OutputStream output) throws IOException {
         output.write(header);
         output.write(version);
@@ -148,12 +242,12 @@ public class Main {
             stream.writeShort(schematic.width);
             stream.writeShort(schematic.height);
 
-            stream.writeByte(0);
-            //stream.writeByte(schematic.tags.size);
-            //for (ObjectMap.Entry<String, String> e : schematic.tags.entries()) {
-            //    stream.writeUTF(e.key);
-            //    stream.writeUTF(e.value);
-            //}
+            //stream.writeByte(0);
+            stream.writeByte(schematic.tags.size);
+            for (ObjectMap.Entry<String, String> e : schematic.tags.entries()) {
+                stream.writeUTF(e.key);
+                stream.writeUTF(e.value);
+            }
 
             //OrderedSet<TBlock> blocks = new OrderedSet<>();
             //schematic.tiles.each(t -> blocks.add(t.block));
@@ -163,17 +257,34 @@ public class Main {
             //for (int i = 0; i < blocks.size; i++) {
             //    stream.writeUTF(blocks.orderedItems().get(i).name);
             //}
-            stream.writeByte(1);
-            stream.writeUTF("sorter");
+            AtomicBoolean enableair = new AtomicBoolean(false);
+            schematic.tiles.forEach((t) -> {
+                if(!t.block.name.equals("sorter")) enableair.set(true);
+            });
+            if(enableair.get()) {
+                stream.writeByte(2);
+                stream.writeUTF("sorter");
+                stream.writeUTF("air");
+            } else {
+                stream.writeByte(1);
+                stream.writeUTF("sorter");
+            }
 
             stream.writeInt(schematic.tiles.size);
             //write each tile
             for (TTile tile : schematic.tiles) {
                 //stream.writeByte(blocks.orderedItems().indexOf(tile.block));
-                stream.writeByte(0);
-                stream.writeInt(Pos.get(tile.x, tile.y));
-                stream.writeInt(tile.config);
-                stream.writeByte(tile.rotation);
+                if(tile.block.name.equals("sorter")) {
+                    stream.writeByte(0);
+                    stream.writeInt(Pos.get(tile.x, tile.y));
+                    stream.writeInt(tile.config);
+                    stream.writeByte(tile.rotation);
+                } else {
+                    stream.writeByte(1);
+                    stream.writeInt(Pos.get(tile.x, tile.y));
+                    stream.writeInt(0);
+                    stream.writeByte(0);
+                }
             }
         }
     }
