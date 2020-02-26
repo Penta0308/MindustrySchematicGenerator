@@ -7,35 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3559c3f-4b11-495d-a332-8a560452feed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Main_Image_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filters.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gene1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/FilterMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/01.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/01.png.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/02.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/03.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/04.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/05.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/06.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/07.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/08.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/09.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/10.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/11.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/12.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/13.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/14.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/15.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/16.msch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/화염방사 시리우스/17.msch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/ColorDist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/GetColorDist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/getColorDist/HSVConicSqrt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/getColorDist/RGBSqrt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k48285p1n12.jpg.msch" beforeDir="false" afterPath="$PROJECT_DIR$/k48285p1n12.jpg.msch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main$Schematic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main$Schematic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main$TBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main$TBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main$TTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main$TTile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/ColorMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/ColorMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tk/skmserver/ColorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/skmserver/ColorMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tk/skmserver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/skmserver/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -78,28 +58,28 @@
       <recent name="tk.skmserver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main(Generate-Sirius)">
-    <configuration name="Main(Generate-Sirius)" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.Main(Image-HSVConic)">
+    <configuration name="Main(Generate-HSVConic)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="tk.skmserver.Main" />
       <module name="MindustrySchematicGenerator" />
-      <option name="PROGRAM_PARAMETERS" value="generate &quot;화염방사 시리우스\01.png&quot; 33 29 &quot;AAAA&quot; &quot;화염방사 시리우스\01.png.msch&quot;" />
+      <option name="PROGRAM_PARAMETERS" value="generate &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\k48285p1n12.jpg&quot; 100 55 &quot;AAAA&quot; &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\k48285p1n12.jpg.hsvconic.msch&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main(Image-Sirius)" type="Application" factoryName="Application">
+    <configuration name="Main(Image-HSVConic)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="tk.skmserver.Main" />
       <module name="MindustrySchematicGenerator" />
-      <option name="PROGRAM_PARAMETERS" value="image &quot;화염방사 시리우스\01.msch&quot; &quot;화염방사 시리우스\01.png&quot;" />
+      <option name="PROGRAM_PARAMETERS" value="image &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\k48285p1n12.jpg.hsvconic.msch&quot; &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\gene1.hsvconic.png&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Main(Generate)" />
-      <item itemvalue="Application.Main(Generate-Sirius)" />
+      <item itemvalue="Application.Main(Generate-HSVConic)" />
       <item itemvalue="Application.Main(Image)" />
-      <item itemvalue="Application.Main(Image-Sirius)" />
+      <item itemvalue="Application.Main(Image-HSVConic)" />
       <item itemvalue="Application.Main(Extract)" />
     </list>
   </component>
@@ -136,14 +116,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="79" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1582534382594" />
-    <state x="253" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582611282285">
+    <state x="253" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582703990970">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="253" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1582611282285" />
-    <state x="574" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1582527546656">
+    <state x="253" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1582703990970" />
+    <state x="574" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1582701761104">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="126" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1582527546656" />
+    <state x="574" y="126" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1582701761104" />
     <state x="599" y="134" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1582533639011">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -152,22 +132,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="331" y="15" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582541653970" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582611779065">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582708604046">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582611779065" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582611779063">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582708604046" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582708604046">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582611779063" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582611779062">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582708604046" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582708604046">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582611779062" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582611779064">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582708604046" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582708604046">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582611779064" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582708604046" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1582561259369">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -188,9 +168,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582541768635" />
-    <state x="471" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1582555333750">
+    <state x="471" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1582645134201">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="471" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1582555333750" />
+    <state x="471" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1582645134201" />
   </component>
 </project>

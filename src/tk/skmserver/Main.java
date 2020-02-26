@@ -39,7 +39,7 @@ public class Main {
             Graphics2D graphic = buffer_post_image.createGraphics();
             graphic.drawImage(buffer_original_image, 0, 0, width, height, null);
 
-            ColorMapper colorMapper = new ColorMapper();
+            ColorMapper colorMapper = new ColorMapper("HSVConic");
 
             Array<TTile> tiles = new Array<>();
 

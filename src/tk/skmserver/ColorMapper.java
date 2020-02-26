@@ -7,6 +7,8 @@ import java.util.concurrent.atomic.AtomicReference;
 
 public class ColorMapper {
     public static Map<Integer, Integer> colorspace;
+    private String type;
+    GetColorDist gcd;
 
 /*
 #d99d73 copper
@@ -27,7 +29,8 @@ public class ColorMapper {
 #ffaa5f pyratite
  */
 
-    public ColorMapper() {
+    public ColorMapper(String type) {
+        this.type = type;
         colorspace = new HashMap<>();
         /*colorspace.put(0xd99d73, "copper");
         colorspace.put(0x8c7fa9, "lead");
@@ -62,6 +65,8 @@ public class ColorMapper {
         colorspace.put(0x7457ce, 13);
         colorspace.put(0xff795e, 14);
         colorspace.put(0xffaa5f, 15);
+
+        gcd = new GetColorDist();
     }
 
 
@@ -70,7 +75,7 @@ public class ColorMapper {
         AtomicReference<Integer> nowLessy = new AtomicReference<>(0);
         AtomicReference<Double> nowValue = new AtomicReference<>(Double.MAX_VALUE);
         colorspace.forEach((k, v) -> {
-            double e = getLength(k, i);
+            double e = getDist(k, i);
             if( e < nowValue.get()) {
                 nowValue.set(e);
                 nowLessy.set(v);
@@ -79,13 +84,8 @@ public class ColorMapper {
         return nowLessy.get();
     }
 
-    public double getLength(int i, int i1) {
-        int r1 = (i >> 16) & 0xFF;
-        int r2 = (i1>> 16) & 0xFF;
-        int g1 = (i >> 8) & 0xFF;
-        int g2 = (i1>> 8) & 0xFF;
-        int b1 = i & 0xFF;
-        int b2 = i1& 0xFF;
-        return Math.sqrt((r1-r2)^2 + (g1-g2)^2 + (b1-b2)^2);
+    public double getDist(int i, int i1) {
+        ColorDist cdf = gcd.getColorDist(type);
+        return cdf.getDist(i, i1);
     }
 }
