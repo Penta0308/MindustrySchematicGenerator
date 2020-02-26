@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3559c3f-4b11-495d-a332-8a560452feed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/ColorDist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/GetColorDist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/getColorDist/HSVConicSqrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/getColorDist/RGBSqrt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/ColorMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/ColorMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tk/skmserver/ColorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/skmserver/ColorMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tk/skmserver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/skmserver/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,11 +69,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main(Generate)" />
       <item itemvalue="Application.Main(Generate-HSVConic)" />
-      <item itemvalue="Application.Main(Image)" />
       <item itemvalue="Application.Main(Image-HSVConic)" />
       <item itemvalue="Application.Main(Extract)" />
+      <item itemvalue="Application.Main(Generate)" />
+      <item itemvalue="Application.Main(Image)" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -168,9 +161,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582541768635" />
-    <state x="471" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1582645134201">
+    <state x="471" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1582712297281">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="471" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1582645134201" />
+    <state x="471" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1582712297281" />
   </component>
 </project>

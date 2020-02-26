@@ -113,13 +113,43 @@ public class Main {
             File out = new File(args[2]);
             ImageIO.write(buffer_pre_image, "png", out);
 
+        } else if (args.length == 5 && args[0].equals("map")) {
+            File original_image = new File(args[1]);
+            BufferedImage buffer_original_image = null;
+
+            try {
+                buffer_original_image = ImageIO.read(original_image);
+            } catch (IOException e) {
+                e.printStackTrace();
+                System.exit(1);
+            }
+            int width = Integer.parseInt(args[2]);
+            int height = Integer.parseInt(args[3]);
+
+            BufferedImage buffer_post_image = new BufferedImage(width, height, BufferedImage.TYPE_3BYTE_BGR);
+            Graphics2D graphic = buffer_post_image.createGraphics();
+            graphic.drawImage(buffer_original_image, 0, 0, width, height, null);
+
+            BufferedImage buffer_pre_image = new BufferedImage(width, height, BufferedImage.TYPE_3BYTE_BGR);
+
+            ColorMapper colorMapper = new ColorMapper("HSVConic");
+
+            for (int y = 0; y < height; y++) {
+                for (int x = 0; x < width; x++) {
+                    Color c = new Color(buffer_post_image.getRGB(x, y));
+                    buffer_pre_image.setRGB(x, y, colorMapper.ColorMapper(c));
+                }
+            }
+            ImageIO.write(buffer_pre_image, "png", new File(args[4]));
         } else {
 
             System.out.println("Usage : generate <imagepath> <X-resolution> <Y-resolution> <name> <outputpath>");
             System.out.println("Usage : extract <schpath> <outputpath>");
             System.out.println("Set <outputpath> \"STDIO\" to get output by base64");
             System.out.println("Usage : image <schpath> <outputpath>");
-            System.out.println("Generates PNG Image");
+            System.out.println("Generates PNG Image From Schematic");
+            System.out.println("Usage : map <inputpath> <X-resolution> <Y-resolution> <outputpath>");
+            System.out.println("Generates Mapped PNG Image from PNG Image");
             System.out.println("#FFFFFF means Air");
         }
     }
