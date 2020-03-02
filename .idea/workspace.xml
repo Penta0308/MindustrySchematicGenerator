@@ -7,36 +7,807 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3559c3f-4b11-495d-a332-8a560452feed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1582540130003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1582540130003.png.msch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filters.msch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filters.msch.content.bin" beforeDir="false" afterPath="$PROJECT_DIR$/test/Filters.msch.content.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindustrySchematicGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MindustrySchematicGenerator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1616.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/test/Test1616.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1616.msch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test16162.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/test/Test16162.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test16162.msch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colorchart.msch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colorchart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k48285p1n12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k48285p1n12.jpg.msch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/ColorMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/ColorMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tk/skmserver/ColorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/skmserver/ColorMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tk/skmserver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/skmserver/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/META-INF/MindustrySchematicGenerator.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Application$ApplicationType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/ApplicationCore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/ApplicationListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Audio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Core.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Events.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Files$FileType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Files.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Graphics$BufferFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Graphics$Cursor$SystemCursor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Graphics$Cursor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Graphics$DisplayMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Graphics$Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Graphics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Input$Orientation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Input$Peripheral.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Input$TextInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/KeyBinds$Axis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/KeyBinds$KeyBind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/KeyBinds$KeybindValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/KeyBinds$Section.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/KeyBinds.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Net$HttpMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Net$HttpRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Net$HttpResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Net$HttpStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Net.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Settings$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Settings$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Settings$TypeReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Settings$TypeSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Settings$TypeWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/Settings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/AssetDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/AssetErrorListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/AssetLoaderParameters$LoadedCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/AssetLoaderParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/AssetLoadingTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/AssetManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/AssetManager$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/AssetManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/Loadable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/RefCountedContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/AssetLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/AsynchronousAssetLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/BitmapFontLoader$BitmapFontParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/BitmapFontLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/CubemapLoader$CubemapLoaderInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/CubemapLoader$CubemapParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/CubemapLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/CustomLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/FileHandleResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/I18NBundleLoader$I18NBundleParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/I18NBundleLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/MusicLoader$MusicParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/MusicLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/PixmapLoader$PixmapParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/PixmapLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/ShaderProgramLoader$ShaderProgramParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/ShaderProgramLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/SoundLoader$SoundParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/SoundLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/SynchronousAssetLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/TextureAtlasLoader$TextureAtlasParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/TextureAtlasLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/TextureLoader$TextureLoaderInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/TextureLoader$TextureParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/TextureLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/resolvers/AbsoluteFileHandleResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/resolvers/ClasspathFileHandleResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/resolvers/ExternalFileHandleResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/resolvers/InternalFileHandleResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/resolvers/LocalFileHandleResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/resolvers/PrefixFileHandleResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/resolvers/ResolutionFileResolver$Resolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/assets/loaders/resolvers/ResolutionFileResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/audio/AudioDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/audio/AudioRecorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/audio/Music$OnCompletionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/audio/Music.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/audio/Sound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/audio/mock/MockAudio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/audio/mock/MockAudioDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/audio/mock/MockAudioRecorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/audio/mock/MockMusic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/audio/mock/MockSound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/files/Fi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/files/Fi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/files/Fi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/files/FiStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/files/ZipFi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/files/ZipFi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Boolc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Boolf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Boolf2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Boolp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Cons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Cons2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Floatc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Floatc2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Floatc4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Floatf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Floatp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Func.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Func2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Func3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Intc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Intc2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Intc4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Intf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Intp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/func/Prov.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Blending.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Camera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Colors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Cubemap$CubemapSide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Cubemap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/CubemapData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/GL20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/GL30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/GLTexture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Gl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Mesh$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Mesh$VertexDataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Mesh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Pixmap$Blending.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Pixmap$Filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Pixmap$Format.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Pixmap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/PixmapIO$CIM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/PixmapIO$PNG$ChunkBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/PixmapIO$PNG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/PixmapIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Pixmaps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Texture$TextureFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Texture$TextureWrap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/Texture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/TextureArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/TextureArrayData$Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/TextureArrayData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/TextureData$Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/TextureData$TextureDataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/TextureData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/VertexAttribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/VertexAttributes$ReadonlyIterable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/VertexAttributes$ReadonlyIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/VertexAttributes$Usage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/VertexAttributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/Animation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/Animation$PlayMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/Animation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/BatchShader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/BitmapFont$BitmapFontData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/BitmapFont$Glyph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/BitmapFont.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/BitmapFontCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/Bloom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/CacheBatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/CapStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/DistanceFieldFont$DistanceFieldFontCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/DistanceFieldFont.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/Draw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/Fill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/GlyphLayout$GlyphRun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/GlyphLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/Lines.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/MultiCacheBatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/NinePatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPacker$GuillotineStrategy$GuillotinePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPacker$GuillotineStrategy$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPacker$GuillotineStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPacker$PackStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPacker$Page$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPacker$Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPacker$PixmapPackerRect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPacker$SkylineStrategy$SkylinePage$Row.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPacker$SkylineStrategy$SkylinePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPacker$SkylineStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPacker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPackerIO$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPackerIO$ImageFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPackerIO$SaveParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapPackerIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/PixmapRegion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/ScissorStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/SpriteBatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/SpriteCache$Cache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/SpriteCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/TextureAtlas$AtlasRegion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/TextureAtlas$TextureAtlasData$Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/TextureAtlas$TextureAtlasData$Region.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/TextureAtlas$TextureAtlasData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/TextureAtlas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/g2d/TextureRegion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/FacedCubemapData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/FileTextureArrayData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/FileTextureData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/FloatFrameBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/FloatTextureData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/FrameBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/FrameBufferCubemap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/GLFrameBuffer$FloatFrameBufferBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/GLFrameBuffer$FrameBufferBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/GLFrameBuffer$FrameBufferCubemapBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/GLFrameBuffer$FrameBufferRenderBufferAttachmentSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/GLFrameBuffer$FrameBufferTextureAttachmentSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/GLFrameBuffer$GLFrameBufferBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/GLFrameBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/GLOnlyTextureData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/GLVersion$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/GLVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/HdpiMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/HdpiUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/IndexArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/IndexBufferObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/IndexBufferObjectSubData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/IndexData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/MipMapGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/MipMapTextureData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/PixmapTextureData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/Shader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/VertexArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/VertexBatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/VertexBufferObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/VertexBufferObjectSubData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/VertexBufferObjectWithVAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/gl/VertexData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/profiling/GL20Interceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/profiling/GL30Interceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/profiling/GLErrorListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/profiling/GLInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/graphics/profiling/GLProfiler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/input/GestureDetector$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/input/GestureDetector$GestureListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/input/GestureDetector$VelocityTracker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/input/GestureDetector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/input/InputDevice$DeviceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/input/InputDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/input/InputEventQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/input/InputMultiplexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/input/InputProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/input/KeyCode$KeyType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/input/KeyCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/input/KeyboardDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/ImageLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/MapGroupLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/MapLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/MapObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/MapProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/MapTile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/TileLayer$Cell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/TileLayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/TileSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/TileSets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/TiledMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/loaders/AtlasTmxMapLoader$AtlasResolver$AssetManagerAtlasResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/loaders/AtlasTmxMapLoader$AtlasResolver$DirectAtlasResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/loaders/AtlasTmxMapLoader$AtlasResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/loaders/AtlasTmxMapLoader$AtlasTiledMapLoaderParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/loaders/AtlasTmxMapLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/loaders/BaseTmxMapLoader$Parameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/loaders/BaseTmxMapLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/loaders/ImageResolver$AssetManagerImageResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/loaders/ImageResolver$DirectImageResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/loaders/ImageResolver$TextureAtlasImageResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/loaders/ImageResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/loaders/TmxMapLoader$Parameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/loaders/TmxMapLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/objects/CircleMapObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/objects/EllipseMapObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/objects/PolygonMapObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/objects/PolylineMapObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/objects/RectangleMapObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/objects/TextureMapObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/maps/objects/TileMapObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Affine2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Angles$ParticleConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Angles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/CumulativeDistribution$CumulativeValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/CumulativeDistribution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/DelaunayTriangulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/EarClippingTriangulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Extrapolator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/FloatCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$Bounce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$BounceIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$BounceOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$Elastic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$ElasticIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$ElasticOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$Exp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$ExpIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$ExpOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$Pow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$PowIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$PowOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$Swing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$SwingIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation$SwingOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Interpolation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Mat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Mathf$Sin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Mathf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Rand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/Scaled.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/WindowedMean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/BSpline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Bezier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Bresenham2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/CatmullRomSpline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/ConvexHull.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Ellipse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/FixedPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Geometry$Raycaster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Geometry$SolidChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Geometry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Intersector$MinimumTranslationVector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Intersector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Path.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Point2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Point3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Polygon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Polyline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/QuadTree$QuadTreeObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/QuadTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Rect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Shape2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Spring1D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Spring2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Vec2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Vec3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/math/geom/Vector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Element$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Element$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Element$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Element$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Element$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Element$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Element$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Element$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Group$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Group.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Scene$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Scene$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Scene$TouchFocus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/Scene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/Actions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/AddAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/AddListenerAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/AfterAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/AlphaAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/ColorAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/DelayAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/DelegateAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/FloatAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/IntAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/LayoutAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/MoveByAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/MoveToAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/OriginAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/ParallelAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/RelativeTemporalAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/RemoveAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/RemoveActorAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/RemoveListenerAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/RepeatAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/RotateByAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/RotateToAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/RunnableAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/ScaleByAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/ScaleToAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/SequenceAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/SizeByAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/SizeToAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/TemporalAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/TimeScaleAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/TouchableAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/TranslateByAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/actions/VisibleAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/ChangeListener$ChangeEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/ChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/ClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/DragListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/DragScrollListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/DragScrollListener$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/DragScrollListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/ElementGestureListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/ElementGestureListener$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/ElementGestureListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/EventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/FocusListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/FocusListener$FocusEvent$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/FocusListener$FocusEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/FocusListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/HandCursorListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/IbeamCursorListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/InputEvent$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/InputEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/InputListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/InputListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/SceneEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/Touchable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/VisibilityEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/event/VisibilityListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/style/BaseDrawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/style/Drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/style/NinePatchDrawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/style/ScaledNinePatchDrawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/style/Style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/style/TextureRegionDrawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/style/TiledDrawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/style/TransformDrawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Button$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Button$ButtonStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Button.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/ButtonGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/CheckBox$CheckBoxStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/CheckBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/ColorImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Dialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Dialog$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Dialog$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Dialog$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Dialog$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Dialog$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Dialog$DialogStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Dialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/ImageButton$ImageButtonStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/ImageButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/KeybindDialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/KeybindDialog$KeybindDialogStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/KeybindDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Label$LabelStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Label.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/ProgressBar$ProgressBarStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/ProgressBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/ScrollPane$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/ScrollPane$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/ScrollPane$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/ScrollPane$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/ScrollPane$ScrollPaneStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/ScrollPane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/SettingsDialog$SettingsTable$CheckSetting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/SettingsDialog$SettingsTable$Setting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/SettingsDialog$SettingsTable$SliderSetting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/SettingsDialog$SettingsTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/SettingsDialog$StringProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/SettingsDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Slider$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Slider$SliderStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Slider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TextArea$TextAreaListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TextArea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TextButton$TextButtonStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TextButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TextField$DefaultOnscreenKeyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TextField$KeyRepeatTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TextField$OnscreenKeyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TextField$TextFieldClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TextField$TextFieldFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TextField$TextFieldListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TextField$TextFieldStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TextField$TextFieldValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Tooltip$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Tooltip$Tooltips$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Tooltip$Tooltips$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Tooltip$Tooltips.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Tooltip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Touchpad$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Touchpad$TouchpadStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/Touchpad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TreeElement$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TreeElement$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TreeElement$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TreeElement$TreeStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/TreeElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/layout/Cell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/layout/Collapser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/layout/Collapser$CollapseAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/layout/Collapser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/layout/HorizontalGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/layout/Scl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/layout/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/layout/Table$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/layout/Table$DrawRect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/layout/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/layout/VerticalGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/ui/layout/WidgetGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/utils/ArraySelection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/utils/Cullable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/utils/Disableable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/utils/DragAndDrop$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/utils/DragAndDrop$Payload.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/utils/DragAndDrop$Source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/utils/DragAndDrop$Target.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/utils/DragAndDrop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/utils/Elements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/utils/Layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/scene/utils/Selection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/Array$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/Array$ArrayIterable$ArrayIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/Array$ArrayIterable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ArrayMap$Entries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ArrayMap$Keys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ArrayMap$Values.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ArrayMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/AtomicQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/BinaryHeap$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/BinaryHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/Bits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/BooleanArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ByteArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/CharArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ComparableTimSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/DelayedRemovalArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/EnumSet$EnumSetIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/EnumSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/FloatArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/GridBits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/GridMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IdentityMap$Entries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IdentityMap$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IdentityMap$Keys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IdentityMap$MapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IdentityMap$Values.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IdentityMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntFloatMap$Entries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntFloatMap$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntFloatMap$Keys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntFloatMap$MapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntFloatMap$Values.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntFloatMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntIntMap$Entries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntIntMap$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntIntMap$Keys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntIntMap$MapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntIntMap$Values.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntIntMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntMap$Entries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntMap$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntMap$Keys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntMap$MapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntMap$Values.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntSet$IntSetIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/IntSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/LongArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/LongMap$Entries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/LongMap$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/LongMap$Keys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/LongMap$MapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/LongMap$Values.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/LongMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/LongQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectFloatMap$Entries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectFloatMap$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectFloatMap$Keys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectFloatMap$MapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectFloatMap$Values.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectFloatMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectIntMap$Entries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectIntMap$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectIntMap$Keys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectIntMap$MapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectIntMap$Values.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectIntMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectMap$Entries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectMap$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectMap$Keys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectMap$MapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectMap$Values.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectSet$ObjectSetIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ObjectSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/OrderedMap$OrderedMapEntries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/OrderedMap$OrderedMapKeys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/OrderedMap$OrderedMapValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/OrderedMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/OrderedSet$OrderedSetIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/OrderedSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/PooledLinkedList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/PooledLinkedList$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/PooledLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/Queue$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/Queue$QueueIterable$QueueIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/Queue$QueueIterable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/ShortArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/SnapshotArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/SortedIntList$Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/SortedIntList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/SortedIntList$NodePool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/SortedIntList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/StringMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/struct/TimSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Align.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/ArcAnnotate$NonNull.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/ArcAnnotate$Nullable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/ArcAnnotate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/ArcNativesLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/ArcRuntimeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Bench.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/BufferUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/ColorCodes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/CommandHandler$Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/CommandHandler$CommandParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/CommandHandler$CommandResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/CommandHandler$CommandRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/CommandHandler$ResponseType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/CommandHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Disposable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Eachable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/I18NBundle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Log$DefaultLogHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Log$LogHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Log$LogLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Log$NoopLogHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/NetJavaImpl$HttpClientResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/NetJavaImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/OS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Pack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/PauseableThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/PerformanceCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/PerformanceCounters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/QuickSelect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Reflect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Scaling$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Scaling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/ScreenRecorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/ScreenUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Select.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/SharedLibraryLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/StaticReset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Structs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/TaskQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/TextFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Time$DelayRun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Timekeeper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Timer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Timer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Timer$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Timer$Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Timer$TimerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Timer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Tmp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/UnsafeRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/async/AsyncExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/async/AsyncResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/async/AsyncTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/async/Threads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/CRC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/ICodeProgress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/Lzma$CommandLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/Lzma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/lz/BinTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/lz/InWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/lz/OutWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/lzma/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/lzma/Decoder$LenDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/lzma/Decoder$LiteralDecoder$Decoder2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/lzma/Decoder$LiteralDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/lzma/Decoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/lzma/Encoder$LenEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/lzma/Encoder$LenPriceTableEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/lzma/Encoder$LiteralEncoder$Encoder2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/lzma/Encoder$LiteralEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/lzma/Encoder$Optimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/lzma/Encoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/rangecoder/BitTreeDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/rangecoder/BitTreeEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/rangecoder/Decoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/compression/rangecoder/Encoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/ByteBufferInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/ByteBufferOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/CounterInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/DefaultSerializers$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/DefaultSerializers$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/DefaultSerializers$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/DefaultSerializers$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/DefaultSerializers$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/DefaultSerializers$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/DefaultSerializers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/FastDeflaterOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/LittleEndianInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/PropertiesUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/ReusableByteInStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/ReusableByteOutStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/Streams$OptimizedByteArrayOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/Streams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/noise/Noise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/noise/RidgedPerlin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/noise/Simplex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/noise/VectorTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/noise/VoronoiNoise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/pooling/FlushablePool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/pooling/Pool$Poolable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/pooling/Pool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/pooling/Pools$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/pooling/Pools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Base64Coder$CharMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Base64Coder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/BaseJsonReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/BaseJsonWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Json$FieldMetadata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Json$ReadOnlySerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Json$Serializable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Json$Serializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Json.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/JsonReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/JsonValue$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/JsonValue$JsonIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/JsonValue$PrettyPrintSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/JsonValue$ValueType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/JsonValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/JsonWriter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/JsonWriter$JsonObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/JsonWriter$OutputType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/JsonWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Jval$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Jval$Hparser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Jval$Hwriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Jval$Jformat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Jval$JsonArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Jval$JsonMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Jval$JsonParseException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Jval$Jtype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Jval$Jwriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Jval$WritingBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/Jval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/SerializationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/UBJsonReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/UBJsonWriter$JsonObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/UBJsonWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/XmlReader$Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/XmlReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/serialization/XmlWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/viewport/ExtendViewport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/viewport/FillViewport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/viewport/FitViewport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/viewport/ScalingViewport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/viewport/ScreenViewport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/viewport/StretchViewport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/viewport/Viewport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/com/badlogic/gdx/graphics/g2d/Gdx2DPixmap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/com/badlogic/gdx/utils/BufferUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/mindustry/world/Pos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/CIELab$Holder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/CIELab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/ColorDist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/ColorMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/FilterMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/GetColorDist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/getColorDist/CIELabSqrt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/getColorDist/HSVConicSqrt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/getColorDist/HSVCylindicSqrt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/getColorDist/RGBSqrt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/mindustry/TBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/mindustry/TSchematic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/mindustry/TTile.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +831,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="MindustrySchematicGenerator" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MindustrySchematicGenerator" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -119,7 +885,7 @@
       <recent name="C:\Users\penta\Documents\MindustrySchematicGenerator\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main(Map-Sirius)">
+  <component name="RunManager" selected="Gradle.MindustrySchematicGenerator Build Jar">
     <configuration name="Main(Generate-HI3Logo)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="tk.skmserver.Main" />
       <module name="MindustrySchematicGenerator.main" />
@@ -152,6 +918,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MindustrySchematicGenerator Build Jar" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Main(Extract)" />
       <item itemvalue="Application.Main(Generate)" />
@@ -160,6 +963,7 @@
       <item itemvalue="Application.Main(Map-Colorchart)" />
       <item itemvalue="Application.Main(Image)" />
       <item itemvalue="Application.Main(Map-Sirius)" />
+      <item itemvalue="Gradle.MindustrySchematicGenerator Build Jar" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -195,10 +999,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="79" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1582534382594" />
-    <state x="253" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583158018413">
+    <state x="253" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583158063699">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="253" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1583158018413" />
+    <state x="253" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1583158063699" />
     <state x="574" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1582980092801">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -223,22 +1027,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="128" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1583157659809" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1583133686222">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1583159686278">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583133686222" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1583133686221">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583159686278" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1583159686277">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1583133686221" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1583133686218">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1583159686277" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1583159686276">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1583133686218" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1583133686221">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1583159686276" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1583159686278">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1583133686221" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1583159686278" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1582561259369">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
