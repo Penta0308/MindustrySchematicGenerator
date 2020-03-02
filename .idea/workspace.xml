@@ -7,46 +7,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3559c3f-4b11-495d-a332-8a560452feed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/CIELab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/getColorDist/CIELabSqrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/getColorDist/HSVCylindicSqrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/mindustry/TBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/mindustry/TSchematic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tk/skmserver/mindustry/TTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Main_Generate_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Main_Generate_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cmpersecond.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/Strings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/ByteBufferInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/ByteBufferInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/ByteBufferOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/arc/util/io/ByteBufferOutput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1582540130003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1582540130003.png.msch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Filters.msch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Filters.msch.content.bin" beforeDir="false" afterPath="$PROJECT_DIR$/test/Filters.msch.content.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MindustrySchematicGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MindustrySchematicGenerator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1616.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/test/Test1616.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1616.msch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test16162.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/test/Test16162.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test16162.msch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colorchart.msch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colorchart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k48285p1n12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k48285p1n12.jpg.msch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/ColorMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/ColorMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/FilterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/FilterMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/GetColorDist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/GetColorDist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main$Schematic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main$TBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main$TTile.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/getColorDist/HSVConicSqrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MindustrySchematicGenerator/tk/skmserver/getColorDist/HSVConicSqrt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arc/graphics/g2d/BitmapFont.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arc/graphics/g2d/BitmapFont.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arc/struct/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arc/struct/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arc/util/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arc/util/Strings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arc/util/io/ByteBufferInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arc/util/io/ByteBufferInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arc/util/io/ByteBufferOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arc/util/io/ByteBufferOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arc/util/serialization/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arc/util/serialization/JsonReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arc/util/serialization/UBJsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arc/util/serialization/UBJsonReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arc/util/serialization/XmlReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arc/util/serialization/XmlReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tk/skmserver/ColorDist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/skmserver/ColorDist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tk/skmserver/ColorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/skmserver/ColorMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tk/skmserver/FilterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/skmserver/FilterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tk/skmserver/GetColorDist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/skmserver/GetColorDist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tk/skmserver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/skmserver/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tk/skmserver/getColorDist/HSVConicSqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/skmserver/getColorDist/HSVConicSqrt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tk/skmserver/getColorDist/RGBSqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/skmserver/getColorDist/RGBSqrt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MindustrySchematicGenerator" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MindustrySchematicGenerator" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,7 +104,8 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -89,35 +115,22 @@
       <recent name="tk.skmserver.getColorDist" />
       <recent name="tk.skmserver" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\penta\Documents\MindustrySchematicGenerator\test" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main(Map-HI3Logo)">
+  <component name="RunManager" selected="Application.Main(Map-Sirius)">
     <configuration name="Main(Generate-HI3Logo)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="tk.skmserver.Main" />
-      <module name="MindustrySchematicGenerator" />
+      <module name="MindustrySchematicGenerator.main" />
       <option name="PROGRAM_PARAMETERS" value="generate &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\hi3logo.png&quot; &quot;붕3&quot; &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\hi3logo.msch&quot;" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main(Generate-HSVConic)" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="tk.skmserver.Main" />
-      <module name="MindustrySchematicGenerator" />
-      <option name="PROGRAM_PARAMETERS" value="generate &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\k48285p1n12.jpg&quot; &quot;AAAA&quot; &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\k48285p1n12.jpg.hsvconic.msch&quot;" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main(Image-HSVConic)" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="tk.skmserver.Main" />
-      <module name="MindustrySchematicGenerator" />
-      <option name="PROGRAM_PARAMETERS" value="image &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\k48285p1n12.jpg.hsvconic.msch&quot; &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\gene1.hsvconic.png&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main(Map-Colorchart)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="tk.skmserver.Main" />
-      <module name="MindustrySchematicGenerator" />
+      <module name="MindustrySchematicGenerator.main" />
       <option name="PROGRAM_PARAMETERS" value="map &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\colorchart.png&quot; &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\colorchart.map.png&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,7 +138,7 @@
     </configuration>
     <configuration name="Main(Map-HI3Logo)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="tk.skmserver.Main" />
-      <module name="MindustrySchematicGenerator" />
+      <module name="MindustrySchematicGenerator.main" />
       <option name="PROGRAM_PARAMETERS" value="map &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\hi3logo.png&quot; &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\hi3logo.map.png&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,15 +146,13 @@
     </configuration>
     <configuration name="Main(Map-Sirius)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="tk.skmserver.Main" />
-      <module name="MindustrySchematicGenerator" />
+      <module name="MindustrySchematicGenerator.main" />
       <option name="PROGRAM_PARAMETERS" value="map &quot;화염방사 시리우스\final.png&quot; &quot;화염방사 시리우스\final2.png&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main(Generate-HSVConic)" />
-      <item itemvalue="Application.Main(Image-HSVConic)" />
       <item itemvalue="Application.Main(Extract)" />
       <item itemvalue="Application.Main(Generate)" />
       <item itemvalue="Application.Main(Generate-HI3Logo)" />
@@ -184,14 +195,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="79" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1582534382594" />
-    <state x="253" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582968331710">
+    <state x="253" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583158018413">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="253" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1582968331710" />
+    <state x="253" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1583158018413" />
     <state x="574" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1582980092801">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="126" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1582980092801" />
+    <state x="495" y="99" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1583151689917">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="495" y="99" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.834@0.0.1536.834" timestamp="1583151689917" />
     <state x="599" y="134" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1582533639011">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -204,6 +219,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="331" y="15" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582541653970" />
+    <state x="549" y="128" key="FileChooserDialogImpl" timestamp="1583157659809">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="128" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1583157659809" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1583133686222">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -236,10 +255,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1582561259369" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1582541768635">
+    <state x="429" y="121" width="707" height="591" key="NewModule_or_Project.wizard" timestamp="1583152021934">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582541768635" />
+    <state x="429" y="121" width="707" height="591" key="NewModule_or_Project.wizard/0.0.1536.834@0.0.1536.834" timestamp="1583152021934" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1583157705511">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1583157705511" />
     <state x="471" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1583131078845">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -248,6 +271,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="488" y="319" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1582978477101" />
+    <state x="157" y="50" key="new project wizard" timestamp="1583151897904">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="157" y="50" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1583151897904" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1582968182426">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

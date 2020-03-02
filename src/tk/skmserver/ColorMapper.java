@@ -80,7 +80,7 @@ public class ColorMapper {
                 nowLessy.set(v);
             }
         });
-        System.out.println(nowValue);
+        //System.out.println(nowValue);
         return nowLessy.get();
     }
 

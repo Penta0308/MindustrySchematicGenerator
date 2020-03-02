@@ -122,7 +122,6 @@ public class Main {
                     buffer_pre_image.setRGB(x, y, ( (filter != -1) ? filterMapper.filterMapper(filter) | 0xFF000000 : 0x00FFFFFF ) );
                 }
             }
-
             ImageIO.write(buffer_pre_image, "png", new File(args[2]));
         }
         else {
@@ -146,7 +145,7 @@ public class Main {
             for (int x = 0; x < width; x++) {
                 int c = origimg.getRGB(x, y);
                 out[x][y] = ((c >>> 24) > 127) ? colorMapper.colorMapper(c & 0x00FFFFFF) : -1;
-                System.out.println(Integer.toHexString(c));
+                //System.out.println(Integer.toHexString(c));
             }
         }
         return out;

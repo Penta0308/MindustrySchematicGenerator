@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Main(Extract)" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="tk.skmserver.Main" />
-    <module name="MindustrySchematicGenerator" />
+    <module name="MindustrySchematicGenerator.main" />
     <option name="PROGRAM_PARAMETERS" value="extract &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\Filters.msch&quot; &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\Filters.msch.content.bin&quot;" />
     <method v="2">
       <option name="Make" enabled="true" />

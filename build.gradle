@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+defaultTasks 'build', 'jar'
+
+group = 'tk.skmserver'
+version = '1.2.0'
+description = 'Mindustry Schematic File Generator'
+sourceCompatibility = 1.8
+
+sourceSets{
+    main{
+        java{
+            srcDirs = ['src']
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //compile('org.spongepowered:spongeapi:5.1.0')
+}
