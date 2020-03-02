@@ -7,7 +7,7 @@ import java.net.*;
 import java.nio.charset.*;
 
 public class Strings{
-    public static final Charset utf8 = Charset.forName("UTF-8");
+    public static final Charset utf8 = StandardCharsets.UTF_8;
 
     public static Array<Throwable> getCauses(Throwable e){
         Array<Throwable> arr = new Array<>();

@@ -124,7 +124,7 @@ public class Array<T> implements Iterable<T>{
     public static <T> Array<T> with(Iterable<T> array){
         Array<T> out = new Array<>();
         for(T thing : array){
-            out.add((T)thing);
+            out.add(thing);
         }
         return out;
     }

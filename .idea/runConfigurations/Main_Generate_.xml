@@ -2,7 +2,7 @@
   <configuration default="false" name="Main(Generate)" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="tk.skmserver.Main" />
     <module name="MindustrySchematicGenerator" />
-    <option name="PROGRAM_PARAMETERS" value="generate &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\k48285p1n12.jpg&quot; 100 55 &quot;AAAA&quot; &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\k48285p1n12.jpg.msch&quot;" />
+    <option name="PROGRAM_PARAMETERS" value="generate &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\k48285p1n12.jpg&quot; &quot;AAAA&quot; &quot;C:\Users\penta\Documents\MindustrySchematicGenerator\k48285p1n12.jpg.msch&quot;" />
     <RunnerSettings RunnerId="Run" />
     <ConfigurationWrapper RunnerId="Run" />
     <method v="2">

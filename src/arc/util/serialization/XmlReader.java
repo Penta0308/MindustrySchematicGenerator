@@ -221,7 +221,7 @@ public class XmlReader{
 
                         if(_xml_trans_actions[_trans] != 0){
                             _acts = _xml_trans_actions[_trans];
-                            _nacts = (int)_xml_actions[_acts++];
+                            _nacts = _xml_actions[_acts++];
                             while(_nacts-- > 0){
                                 switch(_xml_actions[_acts++]){
                                     case 0:

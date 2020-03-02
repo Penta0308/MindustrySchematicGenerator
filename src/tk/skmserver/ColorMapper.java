@@ -70,17 +70,17 @@ public class ColorMapper {
     }
 
 
-    public Integer ColorMapper(Color c) {
-        int i = (c.getRed() << 16) & 0x00ff0000 | (c.getGreen() << 8) & 0x0000ff00 | c.getBlue() & 0x000000ff;
-        AtomicReference<Integer> nowLessy = new AtomicReference<>(0);
+    public Integer colorMapper(int i) {
+        AtomicReference<Integer> nowLessy = new AtomicReference<>(-1);
         AtomicReference<Double> nowValue = new AtomicReference<>(Double.MAX_VALUE);
         colorspace.forEach((k, v) -> {
             double e = getDist(k, i);
-            if( e < nowValue.get()) {
+            if (e < nowValue.get()) {
                 nowValue.set(e);
                 nowLessy.set(v);
             }
         });
+        System.out.println(nowValue);
         return nowLessy.get();
     }
 

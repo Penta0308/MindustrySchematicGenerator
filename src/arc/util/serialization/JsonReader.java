@@ -244,7 +244,7 @@ public class JsonReader implements BaseJsonReader{
 
                             if(_json_trans_actions[_trans] != 0){
                                 _acts = _json_trans_actions[_trans];
-                                _nacts = (int)_json_actions[_acts++];
+                                _nacts = _json_actions[_acts++];
                                 while(_nacts-- > 0){
                                     switch(_json_actions[_acts++]){
                                         case 0:
@@ -514,7 +514,7 @@ public class JsonReader implements BaseJsonReader{
                         case 4:
                             if(p == length){
                                 int __acts = _json_eof_actions[cs];
-                                int __nacts = (int)_json_actions[__acts++];
+                                int __nacts = _json_actions[__acts++];
                                 while(__nacts-- > 0){
                                     if(_json_actions[__acts++] == 1){// line 107 "JsonReader.rl"
                                         String value = new String(data, s, p - s);

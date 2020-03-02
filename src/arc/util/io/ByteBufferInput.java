@@ -3,6 +3,7 @@ package arc.util.io;
 import java.io.DataInput;
 import java.io.UnsupportedEncodingException;
 import java.nio.ByteBuffer;
+import java.nio.charset.StandardCharsets;
 
 /** DataInput wrapper of ByteBuffer. */
 public class ByteBufferInput implements DataInput{
@@ -94,13 +95,9 @@ public class ByteBufferInput implements DataInput{
 
     @Override
     public String readUTF(){
-        try{
-            short length = buffer.getShort();
-            byte[] bytes = new byte[length];
-            buffer.get(bytes);
-            return new String(bytes, "UTF-8");
-        }catch(UnsupportedEncodingException e){
-            throw new RuntimeException(e);
-        }
+        short length = buffer.getShort();
+        byte[] bytes = new byte[length];
+        buffer.get(bytes);
+        return new String(bytes, StandardCharsets.UTF_8);
     }
 }

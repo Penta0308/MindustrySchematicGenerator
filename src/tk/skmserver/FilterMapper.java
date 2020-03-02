@@ -48,7 +48,7 @@ public class FilterMapper {
     }
 
 
-    public Integer FilterMapper(int f) {
+    public Integer filterMapper(int f) {
         return colorspace.get(f);
     }
 }

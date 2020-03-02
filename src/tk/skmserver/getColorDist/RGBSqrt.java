@@ -11,6 +11,6 @@ public class RGBSqrt implements ColorDist {
         int g2 = (i1>> 8) & 0xFF;
         int b1 = i & 0xFF;
         int b2 = i1& 0xFF;
-        return Math.sqrt((r1-r2)^2 + (g1-g2)^2 + (b1-b2)^2);
+        return Math.sqrt(Math.pow(r1-r2, 2) + Math.pow(g1-g2, 2) + Math.pow(b1-b2, 2));
     }
 }
